@@ -2,7 +2,7 @@
 {
 	1D3623240D0F684500981E51 /* FacebookConnectAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {746, 613}}";
+			sepNavIntBoundsRect = "{{0, 0}, {554, 613}}";
 			sepNavSelRange = "{395, 0}";
 			sepNavVisRange = "{0, 531}";
 		};
@@ -323,6 +323,11 @@
 			2F59CCD513FA967600DBA74E /* PBXTextBookmark */ = 2F59CCD513FA967600DBA74E /* PBXTextBookmark */;
 			2F59CCD613FA967600DBA74E /* PBXTextBookmark */ = 2F59CCD613FA967600DBA74E /* PBXTextBookmark */;
 			2F59CCD713FA967600DBA74E /* PBXTextBookmark */ = 2F59CCD713FA967600DBA74E /* PBXTextBookmark */;
+			2F59CD5A13FA98BD00DBA74E /* PBXTextBookmark */ = 2F59CD5A13FA98BD00DBA74E /* PBXTextBookmark */;
+			2F59CD5B13FA98BD00DBA74E /* PBXTextBookmark */ = 2F59CD5B13FA98BD00DBA74E /* PBXTextBookmark */;
+			2F59CD5C13FA98BD00DBA74E /* PBXTextBookmark */ = 2F59CD5C13FA98BD00DBA74E /* PBXTextBookmark */;
+			2F59CD5D13FA98BD00DBA74E /* PBXTextBookmark */ = 2F59CD5D13FA98BD00DBA74E /* PBXTextBookmark */;
+			2F59CD5E13FA98BD00DBA74E /* PBXTextBookmark */ = 2F59CD5E13FA98BD00DBA74E /* PBXTextBookmark */;
 			2FD75BCB13F556C9004C462F = 2FD75BCB13F556C9004C462F /* PBXTextBookmark */;
 			2FD75D1413F9873F004C462F = 2FD75D1413F9873F004C462F /* PBXTextBookmark */;
 			2FD75D2C13F98E3D004C462F = 2FD75D2C13F98E3D004C462F /* PBXTextBookmark */;
@@ -2787,6 +2792,56 @@
 		vrLen = 1600;
 		vrLoc = 713;
 	};
+	2F59CD5A13FA98BD00DBA74E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 66";
+		rLen = 0;
+		rLoc = 1979;
+		rType = 0;
+		vrLen = 1600;
+		vrLoc = 713;
+	};
+	2F59CD5B13FA98BD00DBA74E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2FD75DD713FA49D8004C462F /* AsynchronousImageDownloader.h */;
+		name = "AsynchronousImageDownloader.h: 11";
+		rLen = 35;
+		rLoc = 231;
+		rType = 0;
+		vrLen = 1032;
+		vrLoc = 0;
+	};
+	2F59CD5C13FA98BD00DBA74E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* FacebookConnectAppDelegate.h */;
+		name = "FacebookConnectAppDelegate.h: 15";
+		rLen = 0;
+		rLoc = 395;
+		rType = 0;
+		vrLen = 531;
+		vrLoc = 0;
+	};
+	2F59CD5D13FA98BD00DBA74E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 11";
+		rLen = 0;
+		rLoc = 240;
+		rType = 0;
+		vrLen = 643;
+		vrLoc = 0;
+	};
+	2F59CD5E13FA98BD00DBA74E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 11";
+		rLen = 0;
+		rLoc = 240;
+		rType = 0;
+		vrLen = 643;
+		vrLoc = 0;
+	};
 	2FD75A7313F52E9B004C462F /* FacebookConnect */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -2834,6 +2889,12 @@
 		indexTemplatePath = "";
 	};
 	2FD75B4613F53C22004C462F /* Facebook.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = Facebook.h;
+		path = "/Users/satyavrat/facebook-ios-sdk/src/Facebook.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {746, 1456}}";
 			sepNavSelRange = "{2443, 19}";
@@ -2841,6 +2902,12 @@
 		};
 	};
 	2FD75B4713F53C22004C462F /* Facebook.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = Facebook.m;
+		path = "/Users/satyavrat/facebook-ios-sdk/src/Facebook.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {761, 8736}}";
 			sepNavSelRange = "{18861, 0}";
@@ -2848,6 +2915,12 @@
 		};
 	};
 	2FD75B4813F53C22004C462F /* facebook_ios_sdk_Prefix.pch */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = facebook_ios_sdk_Prefix.pch;
+		path = "/Users/satyavrat/facebook-ios-sdk/src/facebook_ios_sdk_Prefix.pch";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {845, 613}}";
 			sepNavSelRange = "{0, 0}";
@@ -2855,6 +2928,12 @@
 		};
 	};
 	2FD75B4913F53C22004C462F /* FBConnect.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = FBConnect.h;
+		path = "/Users/satyavrat/facebook-ios-sdk/src/FBConnect.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {623, 590}}";
 			sepNavSelRange = "{0, 0}";
@@ -2862,6 +2941,12 @@
 		};
 	};
 	2FD75B4B13F53C22004C462F /* FBDialog.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = FBDialog.h;
+		path = "/Users/satyavrat/facebook-ios-sdk/src/FBDialog.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {746, 2171}}";
 			sepNavSelRange = "{0, 0}";
@@ -2869,6 +2954,12 @@
 		};
 	};
 	2FD75B4C13F53C22004C462F /* FBDialog.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = FBDialog.m;
+		path = "/Users/satyavrat/facebook-ios-sdk/src/FBDialog.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {705, 8606}}";
 			sepNavSelRange = "{0, 0}";
@@ -2876,6 +2967,12 @@
 		};
 	};
 	2FD75B4D13F53C22004C462F /* FBLoginDialog.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = FBLoginDialog.h;
+		path = "/Users/satyavrat/facebook-ios-sdk/src/FBLoginDialog.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {730, 637}}";
 			sepNavSelRange = "{0, 0}";
@@ -2883,6 +2980,12 @@
 		};
 	};
 	2FD75B4E13F53C22004C462F /* FBLoginDialog.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = FBLoginDialog.m;
+		path = "/Users/satyavrat/facebook-ios-sdk/src/FBLoginDialog.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {705, 1222}}";
 			sepNavSelRange = "{0, 0}";
@@ -2890,6 +2993,12 @@
 		};
 	};
 	2FD75B4F13F53C22004C462F /* FBRequest.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = FBRequest.h;
+		path = "/Users/satyavrat/facebook-ios-sdk/src/FBRequest.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {746, 1521}}";
 			sepNavSelRange = "{1793, 0}";
@@ -2897,6 +3006,12 @@
 		};
 	};
 	2FD75B5013F53C22004C462F /* FBRequest.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = FBRequest.m;
+		path = "/Users/satyavrat/facebook-ios-sdk/src/FBRequest.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {746, 4927}}";
 			sepNavSelRange = "{10827, 0}";

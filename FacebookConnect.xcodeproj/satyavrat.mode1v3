@@ -275,8 +275,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
-									<integer>1</integer>
+									<integer>2</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -300,7 +299,7 @@
 							<real>383</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>5 55 1020 691 0 0 1024 746 </string>
+						<string>113 -223 1020 691 0 0 1024 746 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -316,7 +315,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>RootViewController.m</string>
+								<string>RootViewController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,29 +323,21 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>RootViewController.m</string>
+										<string>RootViewController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>2F59CCD713FA967600DBA74E</string>
+										<string>2F59CD5E13FA98BD00DBA74E</string>
 										<key>history</key>
 										<array>
 											<string>2FD75D1413F9873F004C462F</string>
 											<string>2FD75DD313FA4881004C462F</string>
-											<string>2F59CB0013FA65A200DBA74E</string>
-											<string>2F59CB0413FA65A200DBA74E</string>
-											<string>2F59CB8313FA7C2F00DBA74E</string>
-											<string>2F59CC1E13FA884F00DBA74E</string>
-											<string>2F59CC3713FA89A600DBA74E</string>
-											<string>2F59CCC313FA93E700DBA74E</string>
-											<string>2F59CCC413FA93E700DBA74E</string>
-											<string>2F59CCD013FA967600DBA74E</string>
-											<string>2F59CCD113FA967600DBA74E</string>
-											<string>2F59CCD213FA967600DBA74E</string>
 											<string>2F59CCD313FA967600DBA74E</string>
 											<string>2F59CCD413FA967600DBA74E</string>
-											<string>2F59CCD513FA967600DBA74E</string>
-											<string>2F59CCD613FA967600DBA74E</string>
+											<string>2F59CD5A13FA98BD00DBA74E</string>
+											<string>2F59CD5B13FA98BD00DBA74E</string>
+											<string>2F59CD5C13FA98BD00DBA74E</string>
+											<string>2F59CD5D13FA98BD00DBA74E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -360,7 +351,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {615, 645}}</string>
 								<key>RubberWindowFrame</key>
-								<string>5 55 1020 691 0 0 1024 746 </string>
+								<string>113 -223 1020 691 0 0 1024 746 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -380,7 +371,7 @@
 								<key>Frame</key>
 								<string>{{0, 650}, {615, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>5 55 1020 691 0 0 1024 746 </string>
+								<string>113 -223 1020 691 0 0 1024 746 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -553,7 +544,7 @@
 		<string>/Users/satyavrat/Documents/Projects/FacebookConnect/FacebookConnect.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>5 55 1020 691 0 0 1024 746 </string>
+	<string>113 -223 1020 691 0 0 1024 746 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
