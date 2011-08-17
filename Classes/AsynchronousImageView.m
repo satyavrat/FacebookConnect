@@ -6,20 +6,24 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "AsynchronousImageDownloader.h"
+#import "AsynchronousImageView.h"
 
 
-@implementation AsynchronousImageDownloader
+@implementation AsynchronousImageView
 @synthesize indexPath,delegate,facebook,profileId,profileImage;
 
+
+// is facebook a session?????????
 +(id)getDownloaderWithSession:(Facebook*)facebook  andIndexPath:(NSIndexPath*)indexPath andDelegate:(id)delegate{
-	AsynchronousImageDownloader* downloader=[[[AsynchronousImageDownloader alloc]init] autorelease];
+	AsynchronousImageView* downloader=[[[AsynchronousImageView alloc]init] autorelease];
 	downloader.facebook=facebook;
 	downloader.indexPath=indexPath;
 	downloader.delegate=delegate;
 	return downloader;
 }
 
+
+// call it facebook profile id
 -(void)startImageDownloadForProfileId:(NSString*)_profileId{
 	profileId=_profileId;
 	NSString* graphPath=[[NSString stringWithFormat:@"%@/picture",profileId] retain];
@@ -39,7 +43,15 @@
 	[delegate requestDidloadWithImage:profileImage andProfileId:profileId];
 }
 
+// tell the delegate about error!!!!!
 -(void)request:(FBRequest*)request didFailWithError:(NSError*)error{
 	NSLog(@"error");
+}
+
+
+-(void)dealloc
+{
+	delegate = nil;
+	[super dealloc];
 }
 @end

@@ -6,21 +6,27 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
+
+
 #import <UIKit/UIKit.h>
 #import "FBConnect.h"
-#import "AsynchronousImageDownloader.h"
+#import "AsynchronousImageView.h"
+
+
 @interface RootViewController:UIViewController<FBRequestDelegate,
 FBDialogDelegate,FBSessionDelegate,UITableViewDataSource,UITableViewDelegate,
-AsynchronousImageDownloaderDelegate> {
+AsynchronousImageViewDelegate> {
 	
 	UITableView* myTableView;
 	Facebook* facebook;
+	
+	@private
 	UIButton* loginButton;
-	UILabel* label;
-	NSMutableArray* tableData;
-	NSMutableDictionary* profileImages;
+	UILabel* statusLabel; 
+	NSMutableArray* arrayOfFriendsData; 
+	NSMutableDictionary* profileImages; 
 }
 
-@property(nonatomic,retain)UITableView* myTableView;
+@property(nonatomic,copy)NSMutableArray *arrayOfFriendsData;
 
 @end

@@ -8,13 +8,30 @@
 
 #import "RootViewController.h"
 
-#import"AsynchronousImageDownloader.h"
+#import"AsynchronousImageView.h"
+
+
+/*class extension*/
+@interface RootViewController ()
+@property(nonatomic,retain)UITableView* myTableView;
+
+@end
+
+/*Private category for private methods*/
+@interface RootViewController (Private)
+//  add private methods here!!!
+
+@end
+
+
+
 @implementation RootViewController
 
 @synthesize myTableView;
+@synthesize arrayOfFriendsData;
 #pragma mark -
 #pragma mark View lifecycle
-static NSString *kAppId= @"246139905408010";
+static NSString *kAppId= @"246139905408010"; // externalize it!
 
 -(void)loadView{
 	[super loadView];
@@ -23,11 +40,16 @@ static NSString *kAppId= @"246139905408010";
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	facebook =[[ Facebook alloc] initWithAppId:kAppId];
-	label=[[UILabel alloc]initWithFrame:CGRectMake(70, 70, 200, 100)];
-	label.text=@"Please Login First";
-	[self.view addSubview:label];
+	statusLabel=[[UILabel alloc]initWithFrame:CGRectMake(70, 70, 200, 100)];
 	
-	loginButton=[UIButton buttonWithType:UIButtonTypeRoundedRect];
+	statusLabel.text=@"Please Login First"; // use NSLocalizedString
+	statusLabel.text = NSLocalizedString(@"Please Login First",@"Please Login First");
+	
+	
+	[self.view addSubview:statusLabel]; // if this is just a static label, why is it declared in header???
+	
+	
+	loginButton=[UIButton buttonWithType:UIButtonTypeRoundedRect]; //same for this!
 	loginButton.frame=CGRectMake(100, 160, 100, 20);
 	[loginButton setTitle:@"Login" forState:UIControlStateNormal];
 	[loginButton addTarget:self action:@selector(login) forControlEvents:UIControlEventTouchUpInside];
@@ -41,15 +63,28 @@ static NSString *kAppId= @"246139905408010";
 -(void)login{
 	[facebook authorize:nil delegate:self];
 }
+
+//TODO: save the session in userDefaults and use it if the session is valid
+// read what is plist
 - (void)fbDidLogin {
 	self.title=@"Friend List";
 	self.navigationItem.rightBarButtonItem=[[UIBarButtonItem alloc] initWithTitle:@"Logout" style:UIBarButtonItemStylePlain target:self action:@selector(logout)];
 	loginButton.hidden=YES;
-	myTableView=[[UITableView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame] style:UITableViewStylePlain];
-	myTableView.delegate=self;
-	myTableView.dataSource=self;
-	label.text=@"Loading Friend List";
-	[facebook requestWithGraphPath:@"me/friends" andDelegate:self];
+	
+	/*******if you are nt adding tableview here, why are you creating here???  ***********/
+	// keep it simple and allocate it in loadView
+	
+		myTableView=[[UITableView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame] style:UITableViewStylePlain];
+		myTableView.delegate=self;
+		myTableView.dataSource=self;
+	
+	
+	
+	statusLabel.text=@"Loading Friend List";
+	NSMutableDictionary* params = [NSMutableDictionary 
+								   dictionaryWithObjectsAndKeys:@"name,id,picture", @"fields", nil];
+	[facebook requestWithGraphPath:@"me/friends" andParams:params andDelegate:self];
+	//[facebook requestWithGraphPath:@"me/friends" andDelegate:self];
 }
 
 #pragma mark FBRequestDelegate
@@ -58,17 +93,30 @@ static NSString *kAppId= @"246139905408010";
 }
 
 - (void)request:(FBRequest *)request didLoad:(id)result{
-	tableData=[[result valueForKey:@"data"]retain];
+	NSLog(@"result = %@",result);
+	self.arrayOfFriendsData = [result valueForKey:@"data"]; // memory leaked!!!
+	//what if result does not have data???
+	// always copy in such cases
+	// memory leak on refresh
+	
 	[self.view addSubview:myTableView];
+	// create tableview in loadView... add tableView here and dont forget to reloadData!
 }
+
+
+
 #pragma mark AsynchronousImageDownloaderDelegate
 
 -(void)requestDidloadWithImage:(UIImage*)profileImage andProfileId:(NSString*)profileId{
-	if (profileImages==nil) {
-		profileImages=[[NSMutableDictionary alloc] init];
+	
+	@synchronized(self){
+		if (profileImages==nil) {
+			profileImages=[[NSMutableDictionary alloc] init];
+		}
 	}
 	[profileImages setObject:profileImage forKey:profileId];
 }
+
 
 #pragma mark -
 #pragma mark Table view data source
@@ -81,7 +129,7 @@ static NSString *kAppId= @"246139905408010";
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [tableData count];
+    return [arrayOfFriendsData count]; // check for some error cases dude!!!
 }
 
 
@@ -94,16 +142,16 @@ static NSString *kAppId= @"246139905408010";
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
 	// Configure the cell.
-	cell.textLabel.text=[[tableData objectAtIndex:[indexPath row]] valueForKey:@"name"];
-	AsynchronousImageDownloader* imageDownloader;
-	if([profileImages objectForKey:[[tableData objectAtIndex:[indexPath row]] valueForKey:@"id"]]==nil)
+	cell.textLabel.text=[[arrayOfFriendsData objectAtIndex:[indexPath row]] valueForKey:@"name"];
+	AsynchronousImageView* imageDownloader;
+	if([profileImages objectForKey:[[arrayOfFriendsData objectAtIndex:[indexPath row]] valueForKey:@"id"]]==nil)
 	{
-		imageDownloader=[[[AsynchronousImageDownloader getDownloaderWithSession:facebook andIndexPath:indexPath andDelegate:self]retain] autorelease];
-		[imageDownloader startImageDownloadForProfileId:[[tableData objectAtIndex:[indexPath row] ] valueForKey:@"id"] ];
+		imageDownloader=[[[AsynchronousImageView getDownloaderWithSession:facebook andIndexPath:indexPath andDelegate:self]retain] autorelease];
+		[imageDownloader startImageDownloadForProfileId:[[arrayOfFriendsData objectAtIndex:[indexPath row] ] valueForKey:@"id"] ];
 		cell.imageView.image=[UIImage imageNamed:@"not_there.jpg"];
 	}
 	else{
-		cell.imageView.image=[profileImages objectForKey:[[tableData objectAtIndex:[indexPath row]] valueForKey:@"id"]];
+		cell.imageView.image=[profileImages objectForKey:[[arrayOfFriendsData objectAtIndex:[indexPath row]] valueForKey:@"id"]];
 	}
 	
 	return cell;
@@ -115,18 +163,18 @@ static NSString *kAppId= @"246139905408010";
 #pragma mark -
 #pragma mark Table view delegate
 /*
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-	
-	 <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-	 [self.navigationController pushViewController:detailViewController animated:YES];
-	 [detailViewController release];
-	 
-}
-
-*/
+ - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+ 
+ 
+ <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+ // ...
+ // Pass the selected object to the new view controller.
+ [self.navigationController pushViewController:detailViewController animated:YES];
+ [detailViewController release];
+ 
+ }
+ 
+ */
 #pragma mark -
 #pragma mark Memory management
 
@@ -145,6 +193,7 @@ static NSString *kAppId= @"246139905408010";
 
 - (void)dealloc {
     [super dealloc];
+	
 }
 
 

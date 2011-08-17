@@ -31,7 +31,7 @@
 		2F59CD4F13FA98B000DBA74E /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F59CD3E13FA98B000DBA74E /* SBJsonParser.m */; };
 		2F59CD5013FA98B000DBA74E /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F59CD4013FA98B000DBA74E /* SBJsonWriter.m */; };
 		2F59CD5113FA98B000DBA74E /* not_there.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F59CD4113FA98B000DBA74E /* not_there.jpg */; };
-		2FD75DD913FA49D8004C462F /* AsynchronousImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD75DD813FA49D8004C462F /* AsynchronousImageDownloader.m */; };
+		2FD75DD913FA49D8004C462F /* AsynchronousImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD75DD813FA49D8004C462F /* AsynchronousImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,8 +87,8 @@
 		2F59CD3F13FA98B000DBA74E /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		2F59CD4013FA98B000DBA74E /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		2F59CD4113FA98B000DBA74E /* not_there.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = not_there.jpg; sourceTree = "<group>"; };
-		2FD75DD713FA49D8004C462F /* AsynchronousImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsynchronousImageDownloader.h; sourceTree = "<group>"; };
-		2FD75DD813FA49D8004C462F /* AsynchronousImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsynchronousImageDownloader.m; sourceTree = "<group>"; };
+		2FD75DD713FA49D8004C462F /* AsynchronousImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsynchronousImageView.h; sourceTree = "<group>"; };
+		2FD75DD813FA49D8004C462F /* AsynchronousImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsynchronousImageView.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* FacebookConnect-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FacebookConnect-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,8 +109,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2FD75DD713FA49D8004C462F /* AsynchronousImageDownloader.h */,
-				2FD75DD813FA49D8004C462F /* AsynchronousImageDownloader.m */,
+				2FD75DD713FA49D8004C462F /* AsynchronousImageView.h */,
+				2FD75DD813FA49D8004C462F /* AsynchronousImageView.m */,
 				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* FacebookConnectAppDelegate.h */,
@@ -342,7 +342,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* FacebookConnectAppDelegate.m in Sources */,
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
-				2FD75DD913FA49D8004C462F /* AsynchronousImageDownloader.m in Sources */,
+				2FD75DD913FA49D8004C462F /* AsynchronousImageView.m in Sources */,
 				2F59CD4613FA98B000DBA74E /* Facebook.m in Sources */,
 				2F59CD4813FA98B000DBA74E /* FBDialog.m in Sources */,
 				2F59CD4913FA98B000DBA74E /* FBLoginDialog.m in Sources */,

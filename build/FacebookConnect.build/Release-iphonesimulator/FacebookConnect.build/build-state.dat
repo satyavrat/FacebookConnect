@@ -1,28 +1,32 @@
 TFacebookConnect
 v7
 r0
-t335189585.944541
+t335255375.671150
 cCheck dependencies
 cProcessInfoPlistFile /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/Info.plist FacebookConnect-Info.plist
 cCompileXIB /Users/satyavrat/Documents/Projects/FacebookConnect/MainWindow.xib
 cCompileXIB /Users/satyavrat/Documents/Projects/FacebookConnect/RootViewController.xib
-cCpResource build/Release-iphonesimulator/FacebookConnect.app/FBDialog.bundle ../../../facebook-ios-sdk/src/FBDialog.bundle
-cCpResource build/Release-iphonesimulator/FacebookConnect.app/not_there.jpg ../../../facebook-ios-sdk/src/not_there.jpg
+cCpResource build/Release-iphonesimulator/FacebookConnect.app/build-state.dat src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state.dat
+cCpResource build/Release-iphonesimulator/FacebookConnect.app/build-state~.dat src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state~.dat
+cCpResource build/Release-iphonesimulator/FacebookConnect.app/facebook-ios-sdk.dep src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk.dep
+cCpResource build/Release-iphonesimulator/FacebookConnect.app/facebook-ios-sdk~.dep src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk~.dep
+cCpResource build/Release-iphonesimulator/FacebookConnect.app/FBDialog.bundle src/FBDialog.bundle
+cCpResource build/Release-iphonesimulator/FacebookConnect.app/not_there.jpg src/not_there.jpg
 cProcessPCH /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch.gch FacebookConnect_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/main.o /Users/satyavrat/Documents/Projects/FacebookConnect/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FacebookConnectAppDelegate.o /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/FacebookConnectAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/RootViewController.o /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/Facebook.o /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/Facebook.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBDialog.o /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBLoginDialog.o /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBRequest.o /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/NSObject+SBJSON.o /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/NSString+SBJSON.o /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJSON.o /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonBase.o /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonParser.o /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonWriter.o /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/AsynchronousImageDownloader.o /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/AsynchronousImageDownloader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/AsynchronousImageView.o /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/AsynchronousImageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/Facebook.o /Users/satyavrat/Documents/Projects/FacebookConnect/src/Facebook.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBDialog.o /Users/satyavrat/Documents/Projects/FacebookConnect/src/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBLoginDialog.o /Users/satyavrat/Documents/Projects/FacebookConnect/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBRequest.o /Users/satyavrat/Documents/Projects/FacebookConnect/src/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/NSObject+SBJSON.o /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/NSString+SBJSON.o /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJSON.o /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonBase.o /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonParser.o /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonWriter.o /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/FacebookConnect normal i386
 cGenerateDSYMFile /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app.dSYM /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/FacebookConnect
 cTouch /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app
@@ -171,17 +175,30 @@ t1313493964
 s2049
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/Classes/AsynchronousImageDownloader.h
-c000000004E4A5DFF0000000000000408
-t1313496575
-s1032
+c000000004E4A6CC000000000000005F1
+t1313500352
+s1521
 i<Foundation/Foundation.h>
 i"FBConnect.h"
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/Classes/AsynchronousImageDownloader.m
-c000000004E4A5E9A0000000000000586
-t1313496730
-s1414
+c000000004E4A680B0000000000000619
+t1313499147
+s1561
 i"AsynchronousImageDownloader.h"
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/Classes/AsynchronousImageView.h
+c000000004E4B5FAA00000000000005D3
+t1313562538
+s1491
+i<Foundation/Foundation.h>
+i"FBConnect.h"
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/Classes/AsynchronousImageView.m
+c000000004E4B5F94000000000000060F
+t1313562516
+s1551
+i"AsynchronousImageView.h"
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/Classes/FacebookConnectAppDelegate.h
 c000000004E451F480000000000000213
@@ -198,19 +215,19 @@ i"FacebookConnectAppDelegate.h"
 i"RootViewController.h"
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/Classes/RootViewController.h
-c000000004E4A5ECE0000000000000283
-t1313496782
-s643
+c000000004E4B5F9800000000000002A1
+t1313562520
+s673
 i<UIKit/UIKit.h>
 i"FBConnect.h"
-i"AsynchronousImageDownloader.h"
+i"AsynchronousImageView.h"
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/Classes/RootViewController.m
-c000000004E4A5EB90000000000001218
-t1313496761
-s4632
+c000000004E4B5F980000000000001735
+t1313562520
+s5941
 i"RootViewController.h"
-i"AsynchronousImageDownloader.h"
+i"AsynchronousImageView.h"
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/FacebookConnect_Prefix.pch
 c000000004E44F71B0000000000000150
@@ -231,81 +248,85 @@ t1313156335
 s14348
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/AsynchronousImageDownloader.o
-t1313496765
-s51584
+t1313500352
+s52160
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/AsynchronousImageView.o
+t1313562539
+s51780
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBDialog.o
-t1313152699
-s100004
+t1313498691
+s99952
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBLoginDialog.o
-t1313152698
-s43944
+t1313498691
+s43892
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBRequest.o
-t1313490094
-s38880
+t1313498691
+s38800
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/Facebook.o
-t1313160124
-s76736
+t1313498690
+s76684
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FacebookConnect.LinkFileList
-c000000004E4A139D00000000000008DD
-t1313477533
-s2269
+c000000004E4B5F9800000000000008D7
+t1313562520
+s2263
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FacebookConnectAppDelegate.o
-t1313496785
-s56624
+t1313562539
+s56612
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/NSObject+SBJSON.o
-t1313152699
-s8396
+t1313498691
+s8344
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/NSString+SBJSON.o
-t1313152699
-s8316
+t1313498691
+s8264
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/RootViewController.o
-t1313496785
-s63748
+t1313562539
+s65860
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJSON.o
-t1313152699
-s19056
+t1313498691
+s19004
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonBase.o
-t1313152699
-s12852
+t1313498691
+s12800
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonParser.o
-t1313152699
-s31872
+t1313498691
+s31820
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonWriter.o
-t1313152699
-s23132
+t1313498691
+s23080
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/main.o
 t1313152698
 s6324
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app
-t1313496785
-s306
+t1313562540
+s442
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app.dSYM
-t1313496785
+t1313562540
 s102
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/FBDialog.bundle
-t1313152697
+t1313498690
 s102
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/FacebookConnect
-t1313496785
-s127492
+t1313562540
+s127708
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/Info.plist
 t1313152696
@@ -327,8 +348,24 @@ N/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulat
 t1313156339
 s614
 
+N/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/build-state.dat
+t1313498690
+s139
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/build-state~.dat
+t1313498690
+s139
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/facebook-ios-sdk.dep
+t1313498690
+s0
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/facebook-ios-sdk~.dep
+t1313498690
+s0
+
 N/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/not_there.jpg
-t1313494059
+t1313498690
 s2049
 
 N/Users/satyavrat/Documents/Projects/FacebookConnect/main.m
@@ -336,6 +373,188 @@ c000000004E44F71B0000000000000173
 t1313142555
 s371
 i<UIKit/UIKit.h>
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/FBConnect.h
+c000000004E44F7FA00000000000002C2
+t1313142778
+s706
+i"Facebook.h"
+i"FBDialog.h"
+i"FBLoginDialog.h"
+i"FBRequest.h"
+i"SBJSON.h"
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/FBDialog.bundle
+c000000004E44F7FA0000000000000066
+t1313142778
+s102
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/FBDialog.h
+c000000004E44F7FA0000000000001246
+t1313142778
+s4678
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/FBDialog.m
+c000000004E44F7FA000000000000576F
+t1313142778
+s22383
+i"FBDialog.h"
+i"Facebook.h"
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/FBLoginDialog.h
+c000000004E44F7FA000000000000056B
+t1313142778
+s1387
+i"FBDialog.h"
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/FBLoginDialog.m
+c000000004E44F7FA0000000000000BC4
+t1313142778
+s3012
+i"FBDialog.h"
+i"FBLoginDialog.h"
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/FBRequest.h
+c000000004E44F7FA0000000000000CD7
+t1313142778
+s3287
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/FBRequest.m
+c000000004E4A44AD0000000000002C9A
+t1313490093
+s11418
+i"FBRequest.h"
+i"JSON.h"
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/Facebook.h
+c000000004E44F7FA0000000000000DBC
+t1313142778
+s3516
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/Facebook.m
+c000000004E4535750000000000005DBB
+t1313158517
+s23995
+i"Facebook.h"
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/JSON.h
+c000000004E44F7FA00000000000008F9
+t1313142778
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/NSObject+SBJSON.h
+c000000004E44F7FA0000000000000A01
+t1313142778
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/NSObject+SBJSON.m
+c000000004E44F7FA000000000000089E
+t1313142778
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/NSString+SBJSON.h
+c000000004E44F7FA0000000000000916
+t1313142778
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/NSString+SBJSON.m
+c000000004E44F7FA000000000000087D
+t1313142778
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJSON.h
+c000000004E44F7FA0000000000000AED
+t1313142778
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJSON.m
+c000000004E44F7FA0000000000001ABC
+t1313142778
+s6844
+i"SBJSON.h"
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonBase.h
+c000000004E44F7FA0000000000000B82
+t1313142778
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonBase.m
+c000000004E44F7FA0000000000000AC1
+t1313142778
+s2753
+i"SBJsonBase.h"
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonParser.h
+c000000004E44F7FA0000000000000C0B
+t1313142778
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonParser.m
+c000000004E44F7FA00000000000036D0
+t1313142778
+s14032
+i"SBJsonParser.h"
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonWriter.h
+c000000004E44F7FA0000000000001140
+t1313142778
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonWriter.m
+c000000004E44F7FA0000000000001F26
+t1313142778
+s7974
+i"SBJsonWriter.h"
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state.dat
+c000000004E4A60D7000000000000008B
+t1313497303
+s139
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state~.dat
+c000000004E451EB3000000000000008B
+t1313152691
+s139
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk.dep
+c000000004E4A60D70000000000000000
+t1313497303
+s0
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk~.dep
+c000000004E451EB30000000000000000
+t1313152691
+s0
+
+N/Users/satyavrat/Documents/Projects/FacebookConnect/src/not_there.jpg
+c000000004E4A53CC0000000000000801
+t1313493964
+s2049
 
 N/Users/satyavrat/facebook-ios-sdk/src/FBDialog.h
 c000000004E44F7FA0000000000001246
@@ -415,11 +634,11 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies335189585#335189585#0(0"0(0#1#0"8604133184#0"0#
+lSLF07#2@18"Check dependencies335255375#335255375#0(0"0(0#1#0"8590100320#0"0#
 
 CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/AsynchronousImageDownloader.o /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/AsynchronousImageDownloader.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s335189565.413449
-e335189565.636570
+s335193152.653112
+e335193152.842466
 r1
 xCompileC
 xbuild/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/AsynchronousImageDownloader.o
@@ -428,7 +647,20 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@97"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/AsynchronousImageDownloader.m335189565#335189565#0(0"0(0#0#89"/Users/satyavrat/Documents/Projects/FacebookConnect/Classes/AsynchronousImageDownloader.m8605027040#2330"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/AsynchronousImageDownloader.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/AsynchronousImageDownloader.o0#
+lSLF07#2@97"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/AsynchronousImageDownloader.m335193152#335193152#0(0"0(0#0#89"/Users/satyavrat/Documents/Projects/FacebookConnect/Classes/AsynchronousImageDownloader.m8652686624#2330"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/AsynchronousImageDownloader.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/AsynchronousImageDownloader.o0#
+
+CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/AsynchronousImageView.o /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/AsynchronousImageView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335255339.684935
+e335255339.836982
+r1
+xCompileC
+xbuild/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/AsynchronousImageView.o
+x/Users/satyavrat/Documents/Projects/FacebookConnect/Classes/AsynchronousImageView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/AsynchronousImageView.m335255339#335255339#0(0"0(0#0#83"/Users/satyavrat/Documents/Projects/FacebookConnect/Classes/AsynchronousImageView.m8657330176#2318"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/AsynchronousImageView.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/AsynchronousImageView.o0#
 
 CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBDialog.o /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s334845498.434002
@@ -443,6 +675,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@100"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/FBDialog.m334845498#334845499#0(0"0(0#0#92"/Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/FBDialog.m8636279744#2314"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/FBDialog.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBDialog.o0#
 
+CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBDialog.o /Users/satyavrat/Documents/Projects/FacebookConnect/src/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335191490.584597
+e335191491.293110
+r1
+xCompileC
+xbuild/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBDialog.o
+x/Users/satyavrat/Documents/Projects/FacebookConnect/src/FBDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/src/FBDialog.m335191490#335191491#0(0"0(0#0#66"/Users/satyavrat/Documents/Projects/FacebookConnect/src/FBDialog.m8622269120#2288"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/src/FBDialog.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBDialog.o0#
+
 CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBLoginDialog.o /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s334845498.710318
 e334845498.823590
@@ -455,6 +700,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@105"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/FBLoginDialog.m334845498#334845498#0(0"0(0#0#97"/Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/FBLoginDialog.m8642152448#2324"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/FBLoginDialog.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBLoginDialog.o0#
+
+CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBLoginDialog.o /Users/satyavrat/Documents/Projects/FacebookConnect/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335191490.980694
+e335191491.099645
+r1
+xCompileC
+xbuild/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBLoginDialog.o
+x/Users/satyavrat/Documents/Projects/FacebookConnect/src/FBLoginDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/src/FBLoginDialog.m335191490#335191491#0(0"0(0#0#71"/Users/satyavrat/Documents/Projects/FacebookConnect/src/FBLoginDialog.m8652079520#2298"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/src/FBLoginDialog.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBLoginDialog.o0#
 
 CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBRequest.o /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s335182894.571151
@@ -469,6 +727,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@101"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/FBRequest.m335182894#335182894#0(0"0(0#0#93"/Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/FBRequest.m8620475584#2316"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/FBRequest.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBRequest.o0#
 
+CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBRequest.o /Users/satyavrat/Documents/Projects/FacebookConnect/src/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335191491.099752
+e335191491.438937
+r1
+xCompileC
+xbuild/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBRequest.o
+x/Users/satyavrat/Documents/Projects/FacebookConnect/src/FBRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/src/FBRequest.m335191491#335191491#0(0"0(0#0#67"/Users/satyavrat/Documents/Projects/FacebookConnect/src/FBRequest.m8622264384#2290"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/src/FBRequest.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FBRequest.o0#
+
 CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/Facebook.o /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/Facebook.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s334852924.541980
 e334852924.947848
@@ -482,9 +753,22 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@100"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/Facebook.m334852924#334852924#0(0"0(0#0#92"/Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/Facebook.m8643874912#2314"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/Facebook.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/Facebook.o0#
 
+CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/Facebook.o /Users/satyavrat/Documents/Projects/FacebookConnect/src/Facebook.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335191490.480091
+e335191490.980589
+r1
+xCompileC
+xbuild/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/Facebook.o
+x/Users/satyavrat/Documents/Projects/FacebookConnect/src/Facebook.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/src/Facebook.m335191490#335191490#0(0"0(0#0#66"/Users/satyavrat/Documents/Projects/FacebookConnect/src/Facebook.m8621734752#2288"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/src/Facebook.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/Facebook.o0#
+
 CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FacebookConnectAppDelegate.o /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/FacebookConnectAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s335189585.641644
-e335189585.771975
+s335255339.516195
+e335255339.684825
 r1
 xCompileC
 xbuild/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FacebookConnectAppDelegate.o
@@ -493,7 +777,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/FacebookConnectAppDelegate.m335189585#335189585#0(0"0(0#0#88"/Users/satyavrat/Documents/Projects/FacebookConnect/Classes/FacebookConnectAppDelegate.m8621914048#2328"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/FacebookConnectAppDelegate.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FacebookConnectAppDelegate.o0#
+lSLF07#2@96"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/FacebookConnectAppDelegate.m335255339#335255339#0(0"0(0#0#88"/Users/satyavrat/Documents/Projects/FacebookConnect/Classes/FacebookConnectAppDelegate.m8620642080#2328"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/FacebookConnectAppDelegate.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FacebookConnectAppDelegate.o0#
 
 CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/NSObject+SBJSON.o /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s334845499.071334
@@ -508,6 +792,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@112"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/NSObject+SBJSON.m334845499#334845499#0(0"0(0#0#104"/Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/NSObject+SBJSON.m8638297728#2333"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/NSObject+SBJSON.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/NSObject+SBJSON.o0#
 
+CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/NSObject+SBJSON.o /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335191491.293213
+e335191491.361928
+r1
+xCompileC
+xbuild/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/NSObject+SBJSON.m335191491#335191491#0(0"0(0#0#78"/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/NSObject+SBJSON.m8621310080#2307"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/NSObject+SBJSON.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
 CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/NSString+SBJSON.o /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s334845499.146320
 e334845499.218156
@@ -521,9 +818,22 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@112"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/NSString+SBJSON.m334845499#334845499#0(0"0(0#0#104"/Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/NSString+SBJSON.m8630328576#2333"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/NSString+SBJSON.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/NSString+SBJSON.o0#
 
+CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/NSString+SBJSON.o /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335191491.362033
+e335191491.459487
+r1
+xCompileC
+xbuild/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/NSString+SBJSON.m335191491#335191491#0(0"0(0#0#78"/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/NSString+SBJSON.m8620588864#2307"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/NSString+SBJSON.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/NSString+SBJSON.o0#
+
 CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/RootViewController.o /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s335189585.642698
-e335189585.867299
+s335255339.517642
+e335255339.812323
 r1
 xCompileC
 xbuild/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/RootViewController.o
@@ -532,7 +842,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/RootViewController.m335189585#335189585#0(0"0(0#0#80"/Users/satyavrat/Documents/Projects/FacebookConnect/Classes/RootViewController.m8621707392#2312"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/RootViewController.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/RootViewController.o0#
+lSLF07#2@88"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/RootViewController.m335255339#335255339#0(0"0(0#0#80"/Users/satyavrat/Documents/Projects/FacebookConnect/Classes/RootViewController.m8615010656#2312"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/RootViewController.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/RootViewController.o0#
 
 CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJSON.o /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s334845499.192497
@@ -547,6 +857,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@103"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/SBJSON.m334845499#334845499#0(0"0(0#0#95"/Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/SBJSON.m8612718080#2315"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/SBJSON.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJSON.o0#
 
+CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJSON.o /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335191491.439089
+e335191491.637422
+r1
+xCompileC
+xbuild/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJSON.o
+x/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJSON.m335191491#335191491#0(0"0(0#0#69"/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJSON.m8619346432#2289"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJSON.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJSON.o0#
+
 CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonBase.o /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s334845499.218256
 e334845499.332772
@@ -559,6 +882,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@107"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/SBJsonBase.m334845499#334845499#0(0"0(0#0#99"/Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/SBJsonBase.m8633647744#2323"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/SBJsonBase.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonBase.o /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335191491.463236
+e335191491.559073
+r1
+xCompileC
+xbuild/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonBase.o
+x/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonBase.m335191491#335191491#0(0"0(0#0#73"/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonBase.m8654500576#2297"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonBase.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonBase.o0#
 
 CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonParser.o /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s334845499.332871
@@ -573,6 +909,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@109"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/SBJsonParser.m334845499#334845499#0(0"0(0#0#101"/Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/SBJsonParser.m8642054080#2327"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/SBJsonParser.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonParser.o0#
 
+CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonParser.o /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335191491.559400
+e335191491.903727
+r1
+xCompileC
+xbuild/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonParser.o
+x/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonParser.m335191491#335191491#0(0"0(0#0#75"/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonParser.m8622528736#2301"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonParser.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonParser.o0#
+
 CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonWriter.o /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s334845499.404455
 e334845499.605710
@@ -585,6 +934,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@109"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/SBJsonWriter.m334845499#334845499#0(0"0(0#0#101"/Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/SBJsonWriter.m8637624224#2327"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/JSON/SBJsonWriter.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonWriter.o /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s335191491.637530
+e335191491.874931
+r1
+xCompileC
+xbuild/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonWriter.m335191491#335191491#0(0"0(0#0#75"/Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonWriter.m8621322240#2301"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch -c /Users/satyavrat/Documents/Projects/FacebookConnect/src/JSON/SBJsonWriter.m -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/SBJsonWriter.o0#
 
 CCompileC build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/main.o /Users/satyavrat/Documents/Projects/FacebookConnect/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s334845498.192565
@@ -624,8 +986,53 @@ xbuild/Release-iphonesimulator/FacebookConnect.app/FBDialog.bundle
 x../../../facebook-ios-sdk/src/FBDialog.bundle
 lSLF07#2@50"Copy ../../../facebook-ios-sdk/src/FBDialog.bundle334845497#334845497#0(0"0(0#0#97"/Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/FBDialog.bundle8652265216#573"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/FBDialog.bundle /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app0#
 
+CCpResource build/Release-iphonesimulator/FacebookConnect.app/FBDialog.bundle src/FBDialog.bundle
+s335191489.965936
+e335191490.229377
+r1
+xCpResource
+xbuild/Release-iphonesimulator/FacebookConnect.app/FBDialog.bundle
+xsrc/FBDialog.bundle
+lSLF07#2@24"Copy src/FBDialog.bundle335191489#335191490#0(0"0(0#0#71"/Users/satyavrat/Documents/Projects/FacebookConnect/src/FBDialog.bundle8622969312#547"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/satyavrat/Documents/Projects/FacebookConnect/src/FBDialog.bundle /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app0#
+
 CCpResource build/Release-iphonesimulator/FacebookConnect.app/Questionmark_gold_64.png ../../../facebook-ios-sdk/src/Questionmark_gold_64.png
 r0
+
+CCpResource build/Release-iphonesimulator/FacebookConnect.app/build-state.dat src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state.dat
+s335191489.963260
+e335191490.218383
+r1
+xCpResource
+xbuild/Release-iphonesimulator/FacebookConnect.app/build-state.dat
+xsrc/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state.dat
+lSLF07#2@82"Copy src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state.dat335191489#335191490#0(0"0(0#0#129"/Users/satyavrat/Documents/Projects/FacebookConnect/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state.dat8602417184#605"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/satyavrat/Documents/Projects/FacebookConnect/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state.dat /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app0#
+
+CCpResource build/Release-iphonesimulator/FacebookConnect.app/build-state~.dat src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state~.dat
+s335191489.964083
+e335191490.221864
+r1
+xCpResource
+xbuild/Release-iphonesimulator/FacebookConnect.app/build-state~.dat
+xsrc/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state~.dat
+lSLF07#2@83"Copy src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state~.dat335191489#335191490#0(0"0(0#0#130"/Users/satyavrat/Documents/Projects/FacebookConnect/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state~.dat8621281536#606"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/satyavrat/Documents/Projects/FacebookConnect/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/build-state~.dat /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app0#
+
+CCpResource build/Release-iphonesimulator/FacebookConnect.app/facebook-ios-sdk.dep src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk.dep
+s335191489.964702
+e335191490.222053
+r1
+xCpResource
+xbuild/Release-iphonesimulator/FacebookConnect.app/facebook-ios-sdk.dep
+xsrc/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk.dep
+lSLF07#2@87"Copy src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk.dep335191489#335191490#0(0"0(0#0#134"/Users/satyavrat/Documents/Projects/FacebookConnect/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk.dep8622011488#610"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/satyavrat/Documents/Projects/FacebookConnect/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk.dep /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app0#
+
+CCpResource build/Release-iphonesimulator/FacebookConnect.app/facebook-ios-sdk~.dep src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk~.dep
+s335191489.965315
+e335191490.225229
+r1
+xCpResource
+xbuild/Release-iphonesimulator/FacebookConnect.app/facebook-ios-sdk~.dep
+xsrc/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk~.dep
+lSLF07#2@88"Copy src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk~.dep335191489#335191490#0(0"0(0#0#135"/Users/satyavrat/Documents/Projects/FacebookConnect/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk~.dep8615291232#611"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/satyavrat/Documents/Projects/FacebookConnect/src/build/facebook-ios-sdk.build/Debug/facebook-ios-sdk.build/facebook-ios-sdk~.dep /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app0#
 
 CCpResource build/Release-iphonesimulator/FacebookConnect.app/not_there.jpg ../../../facebook-ios-sdk/src/not_there.jpg
 s335186859.782546
@@ -636,24 +1043,33 @@ xbuild/Release-iphonesimulator/FacebookConnect.app/not_there.jpg
 x../../../facebook-ios-sdk/src/not_there.jpg
 lSLF07#2@48"Copy ../../../facebook-ios-sdk/src/not_there.jpg335186859#335186859#0(0"0(0#0#95"/Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/not_there.jpg8603878688#571"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/satyavrat/Documents/Projects/FacebookConnect/../../../facebook-ios-sdk/src/not_there.jpg /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app0#
 
+CCpResource build/Release-iphonesimulator/FacebookConnect.app/not_there.jpg src/not_there.jpg
+s335191489.966521
+e335191490.226202
+r1
+xCpResource
+xbuild/Release-iphonesimulator/FacebookConnect.app/not_there.jpg
+xsrc/not_there.jpg
+lSLF07#2@22"Copy src/not_there.jpg335191489#335191490#0(0"0(0#0#69"/Users/satyavrat/Documents/Projects/FacebookConnect/src/not_there.jpg8652787936#545"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/satyavrat/Documents/Projects/FacebookConnect/src/not_there.jpg /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app0#
+
 CGenerateDSYMFile /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app.dSYM /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/FacebookConnect
-s335189585.910479
-e335189585.941852
+s335255340.037393
+e335255340.115394
 r1
 xGenerateDSYMFile
 x/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app.dSYM
 x/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/FacebookConnect
-lSLF07#2@137"GenerateDSYMFile build/Release-iphonesimulator/FacebookConnect.app.dSYM build/Release-iphonesimulator/FacebookConnect.app/FacebookConnect335189585#335189585#0(0"0(0#0#117"/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/FacebookConnect8622323264#450"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/FacebookConnect -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app.dSYM0#
+lSLF07#2@137"GenerateDSYMFile build/Release-iphonesimulator/FacebookConnect.app.dSYM build/Release-iphonesimulator/FacebookConnect.app/FacebookConnect335255340#335255340#0(0"0(0#0#117"/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/FacebookConnect8620145120#450"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/FacebookConnect -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app.dSYM0#
 
 CLd /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/FacebookConnect normal i386
-s335189585.867399
-e335189585.910380
+s335255339.837077
+e335255340.037283
 r1
 xLd
 x/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/FacebookConnect
 xnormal
 xi386
-lSLF07#2@122"Link /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/FacebookConnect335189585#335189585#0(0"0(0#0#0"8624818848#1013"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -filelist /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FacebookConnect.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/FacebookConnect0#
+lSLF07#2@122"Link /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/FacebookConnect335255339#335255340#0(0"0(0#0#0"8620584160#1013"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -filelist /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/Objects-normal/i386/FacebookConnect.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/FacebookConnect0#
 
 CProcessInfoPlistFile /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app/Info.plist FacebookConnect-Info.plist
 s334845496.673420
@@ -678,10 +1094,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@37"Precompile FacebookConnect_Prefix.pch334845497#334845498#0(0"0(0#0#78"/Users/satyavrat/Documents/Projects/FacebookConnect/FacebookConnect_Prefix.pch8642170688#2145"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-generated-files.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-own-target-headers.hmap -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-all-target-headers.hmap -iquote /Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/FacebookConnect-project-headers.hmap -F/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/include -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources/i386 -I/Users/satyavrat/Documents/Projects/FacebookConnect/build/FacebookConnect.build/Release-iphonesimulator/FacebookConnect.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/satyavrat/Documents/Projects/FacebookConnect/FacebookConnect_Prefix.pch -o /var/folders/2Y/2YyuunaSEnmP2qV280xUKk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/FacebookConnect_Prefix-bggjsumtyrjbzwcjpkdcorcidetl/FacebookConnect_Prefix.pch.gch0#
 
 CTouch /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app
-s335189585.941941
-e335189585.944505
+s335255340.115481
+e335255340.135224
 r1
 xTouch
 x/Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app
-lSLF07#2@107"Touch /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app335189585#335189585#0(0"0(0#0#0"8622255008#314"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app0#
+lSLF07#2@107"Touch /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app335255340#335255340#0(0"0(0#0#0"8619429056#314"    cd /Users/satyavrat/Documents/Projects/FacebookConnect    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/satyavrat/Documents/Projects/FacebookConnect/build/Release-iphonesimulator/FacebookConnect.app0#
 
