@@ -153,12 +153,12 @@ static NSString *kAppId= @"246139905408010"; // externalize it!
 	textLabel.text=name;
 	[cell.contentView addSubview:textLabel];
 	[textLabel release];
-	AsynchronousImageView* imageView=[[AsynchronousImageView alloc]initWithImageURL:pictureURL andProfileId:profileId andDelegate:self];
+	AsynchronousImageView* imageView=[[AsynchronousImageView alloc]initWithDelegate:self];
 	imageView.frame=CGRectMake(0, 0, 50, 50);
 	
 	if([profileImages objectForKey:profileId]==nil)
 	{	imageView.image=[UIImage imageNamed:@"not_there.jpg"];
-		[imageView startImageDownload];
+		[imageView startImageDownloadWithImageURL:pictureURL andProfileId:profileId];
 		
 	}
 	else 

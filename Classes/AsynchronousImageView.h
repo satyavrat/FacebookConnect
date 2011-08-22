@@ -19,10 +19,19 @@
  @details	Asynchronously downloads the images of friends and sets image field once downloaded.
  */
 @interface AsynchronousImageView : UIImageView {
+	/*!
+	 @brief  adress of the profile picture sepecific to the facebook profile id
+	 */
 	NSURL* url;
-	id delegate;
+	/*!
+	 @brief facebook profile id
+	 */
 	NSString* profileId;
-}
+	/*!
+	 @brief delegate
+	 */
+	id delegate;
+	}
 
 /*!
  @brief			Designated initializer
@@ -31,12 +40,12 @@
  @param			Facebook profile id of the friend 
  @return		An instance of AsynchronousImageView
  */
--(id)initWithImageURL:(NSURL*)_url andProfileId:(NSString*)_profileId andDelegate:(id)_delegate;
+-(id)initWithDelegate:(id)_delegate;
 
 /*!
  @brief			Starts the image downloading when called according to the imageURL
  */
--(void)startImageDownload;
+-(void)startImageDownloadWithImageURL:(NSURL*)_url andProfileId:(NSString*)_profileId;
 
 
 @property(nonatomic,retain)NSURL* url;

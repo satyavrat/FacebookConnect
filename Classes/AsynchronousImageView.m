@@ -18,18 +18,21 @@
 @synthesize url,delegate,profileId,data,request,connection;
 
 
--(id)initWithImageURL:(NSURL*)_url andProfileId:_profileId andDelegate:_delegate {
-	[super init];
-	delegate=_delegate;
-	url=_url;
-	profileId=_profileId;
+-(id)initWithDelegate:_delegate {
+	self=[super init];
+	if (self) {
+	self.delegate=_delegate;
+	}
 	return self;
+
 }
 
--(void)startImageDownload
+-(void)startImageDownloadWithImageURL:(NSURL*)_url andProfileId:(NSString*)_profileId 
 {	
-	 self.request =[NSMutableURLRequest requestWithURL:url];
-	 self.connection = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+	self.url=_url;
+	self.profileId=_profileId;
+	self.request =[NSMutableURLRequest requestWithURL:url];
+	self.connection = [[NSURLConnection alloc] initWithRequest:request delegate:self];
 		
 }
 
