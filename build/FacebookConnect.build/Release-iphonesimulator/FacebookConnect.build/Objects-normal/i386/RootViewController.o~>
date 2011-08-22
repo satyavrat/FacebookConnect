@@ -1,8 +1,0 @@
-In file included from /Users/satyavrat/Documents/Projects/FacebookConnect/Classes/RootViewController.m:9:
-/Users/satyavrat/Documents/Projects/FacebookConnect/Classes/RootViewController.h:25: error: expected specifier-qualifier-list before 'commented'
-/Users/satyavrat/Documents/Projects/FacebookConnect/Classes/RootViewController.m: In function '-[RootViewController viewDidLoad]':
-/Users/satyavrat/Documents/Projects/FacebookConnect/Classes/RootViewController.m:43: error: 'label' undeclared (first use in this function)
-/Users/satyavrat/Documents/Projects/FacebookConnect/Classes/RootViewController.m:43: error: (Each undeclared identifier is reported only once
-/Users/satyavrat/Documents/Projects/FacebookConnect/Classes/RootViewController.m:43: error: for each function it appears in.)
-/Users/satyavrat/Documents/Projects/FacebookConnect/Classes/RootViewController.m: In function '-[RootViewController fbDidLogin]':
-/Users/satyavrat/Documents/Projects/FacebookConnect/Classes/RootViewController.m:83: error: 'label' undeclared (first use in this function)

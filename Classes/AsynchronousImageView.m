@@ -8,50 +8,59 @@
 
 #import "AsynchronousImageView.h"
 
+@interface AsynchronousImageView ()
+@property(nonatomic,retain) NSURLConnection* connection;
+@property(nonatomic,retain) NSMutableURLRequest* request;
+@property(nonatomic,retain) NSMutableData* data;
+@end
 
 @implementation AsynchronousImageView
-@synthesize indexPath,delegate,facebook,profileId,profileImage;
+@synthesize url,delegate,profileId,data,request,connection;
 
 
-// is facebook a session?????????
-+(id)getDownloaderWithSession:(Facebook*)facebook  andIndexPath:(NSIndexPath*)indexPath andDelegate:(id)delegate{
-	AsynchronousImageView* downloader=[[[AsynchronousImageView alloc]init] autorelease];
-	downloader.facebook=facebook;
-	downloader.indexPath=indexPath;
-	downloader.delegate=delegate;
-	return downloader;
-}
-
-
-// call it facebook profile id
--(void)startImageDownloadForProfileId:(NSString*)_profileId{
+-(id)initWithImageURL:(NSURL*)_url andProfileId:_profileId andDelegate:_delegate {
+	[super init];
+	delegate=_delegate;
+	url=_url;
 	profileId=_profileId;
-	NSString* graphPath=[[NSString stringWithFormat:@"%@/picture",profileId] retain];
-	NSMutableDictionary* params=[[NSMutableDictionary alloc] init];
-	[params setObject:@"square" forKey:@"type"];
-	[facebook requestWithGraphPath:graphPath andParams:params
-					   andDelegate:self];
+	return self;
 }
 
-- (void)request:(FBRequest *)request didReceiveResponse:(NSURLResponse *)response {
-	NSLog(@"received response");
+-(void)startImageDownload
+{	
+	 self.request =[NSMutableURLRequest requestWithURL:url];
+	 self.connection = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+		
 }
 
-- (void)request:(FBRequest *)request didLoad:(id)result{
+
+#pragma mark NSURLConnectionDelegate
+- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response {
+		
+	}
+
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)_data {
+	if (data==nil) {
+	self.data=[NSMutableData data];
+	}
 	
-	profileImage=[[UIImage imageWithData:result] retain];
-	[delegate requestDidloadWithImage:profileImage andProfileId:profileId];
+	[data appendData:_data];
+
 }
 
-// tell the delegate about error!!!!!
--(void)request:(FBRequest*)request didFailWithError:(NSError*)error{
-	NSLog(@"error");
+
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection {
+	self.image=[UIImage imageWithData:data];
+	[delegate imageView:self withImage:self.image andProfileId:self.profileId];
 }
 
 
 -(void)dealloc
-{
-	delegate = nil;
+{	[profileId release];
+	[url release];
+	[data release];
+	[request release];
+	[connection release];
 	[super dealloc];
 }
 @end

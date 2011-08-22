@@ -20,7 +20,7 @@
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-    
+  	
     // Override point for customization after application launch.
 	vc= [[RootViewController alloc] init];
 	vc.title=@"Facebook";
@@ -81,6 +81,7 @@
 
 
 - (void)dealloc {
+	[vc release];
 	[navigationController release];
 	[window release];
 	[super dealloc];

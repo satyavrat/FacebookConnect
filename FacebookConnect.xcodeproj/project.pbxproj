@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3623260D0F684500981E51 /* FacebookConnectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FacebookConnectAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
-		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
 		2F59CD4213FA98B000DBA74E /* build-state.dat in Resources */ = {isa = PBXBuildFile; fileRef = 2F59CD2113FA98AF00DBA74E /* build-state.dat */; };
 		2F59CD4313FA98B000DBA74E /* build-state~.dat in Resources */ = {isa = PBXBuildFile; fileRef = 2F59CD2213FA98AF00DBA74E /* build-state~.dat */; };
@@ -31,7 +29,9 @@
 		2F59CD4F13FA98B000DBA74E /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F59CD3E13FA98B000DBA74E /* SBJsonParser.m */; };
 		2F59CD5013FA98B000DBA74E /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F59CD4013FA98B000DBA74E /* SBJsonWriter.m */; };
 		2F59CD5113FA98B000DBA74E /* not_there.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F59CD4113FA98B000DBA74E /* not_there.jpg */; };
-		2FD75DD913FA49D8004C462F /* AsynchronousImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD75DD813FA49D8004C462F /* AsynchronousImageView.m */; };
+		2FD122AB1402440300CC96CF /* AsynchronousImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD122A61402440300CC96CF /* AsynchronousImageView.m */; };
+		2FD122AC1402440300CC96CF /* FacebookConnectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD122A81402440300CC96CF /* FacebookConnectAppDelegate.m */; };
+		2FD122AD1402440300CC96CF /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD122AA1402440300CC96CF /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +39,18 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 2F59CD2513FA98B000DBA74E /* facebook-ios-sdk.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D2AAC07E0554694100DB518D /* libfacebook_ios_sdk.a */;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
 			remoteInfo = "facebook-ios-sdk";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* FacebookConnectAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookConnectAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* FacebookConnectAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookConnectAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* FacebookConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28A0AAE50D9B0CCF005BE974 /* FacebookConnect_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookConnect_Prefix.pch; sourceTree = "<group>"; };
 		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2F59CD2113FA98AF00DBA74E /* build-state.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "build-state.dat"; sourceTree = "<group>"; };
@@ -87,8 +83,12 @@
 		2F59CD3F13FA98B000DBA74E /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		2F59CD4013FA98B000DBA74E /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		2F59CD4113FA98B000DBA74E /* not_there.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = not_there.jpg; sourceTree = "<group>"; };
-		2FD75DD713FA49D8004C462F /* AsynchronousImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsynchronousImageView.h; sourceTree = "<group>"; };
-		2FD75DD813FA49D8004C462F /* AsynchronousImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsynchronousImageView.m; sourceTree = "<group>"; };
+		2FD122A51402440300CC96CF /* AsynchronousImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsynchronousImageView.h; sourceTree = "<group>"; };
+		2FD122A61402440300CC96CF /* AsynchronousImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsynchronousImageView.m; sourceTree = "<group>"; };
+		2FD122A71402440300CC96CF /* FacebookConnectAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookConnectAppDelegate.h; sourceTree = "<group>"; };
+		2FD122A81402440300CC96CF /* FacebookConnectAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookConnectAppDelegate.m; sourceTree = "<group>"; };
+		2FD122A91402440300CC96CF /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2FD122AA1402440300CC96CF /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* FacebookConnect-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FacebookConnect-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,12 +109,12 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2FD75DD713FA49D8004C462F /* AsynchronousImageView.h */,
-				2FD75DD813FA49D8004C462F /* AsynchronousImageView.m */,
-				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
-				28C286E00D94DF7D0034E888 /* RootViewController.m */,
-				1D3623240D0F684500981E51 /* FacebookConnectAppDelegate.h */,
-				1D3623250D0F684500981E51 /* FacebookConnectAppDelegate.m */,
+				2FD122A51402440300CC96CF /* AsynchronousImageView.h */,
+				2FD122A61402440300CC96CF /* AsynchronousImageView.m */,
+				2FD122A71402440300CC96CF /* FacebookConnectAppDelegate.h */,
+				2FD122A81402440300CC96CF /* FacebookConnectAppDelegate.m */,
+				2FD122A91402440300CC96CF /* RootViewController.h */,
+				2FD122AA1402440300CC96CF /* RootViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -340,9 +340,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* FacebookConnectAppDelegate.m in Sources */,
-				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
-				2FD75DD913FA49D8004C462F /* AsynchronousImageView.m in Sources */,
 				2F59CD4613FA98B000DBA74E /* Facebook.m in Sources */,
 				2F59CD4813FA98B000DBA74E /* FBDialog.m in Sources */,
 				2F59CD4913FA98B000DBA74E /* FBLoginDialog.m in Sources */,
@@ -353,6 +350,9 @@
 				2F59CD4E13FA98B000DBA74E /* SBJsonBase.m in Sources */,
 				2F59CD4F13FA98B000DBA74E /* SBJsonParser.m in Sources */,
 				2F59CD5013FA98B000DBA74E /* SBJsonWriter.m in Sources */,
+				2FD122AB1402440300CC96CF /* AsynchronousImageView.m in Sources */,
+				2FD122AC1402440300CC96CF /* FacebookConnectAppDelegate.m in Sources */,
+				2FD122AD1402440300CC96CF /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
